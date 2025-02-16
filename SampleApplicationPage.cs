@@ -1,3 +1,5 @@
+using OpenQA.Selenium;
+
 namespace SauceLabs;
 
 internal class SampleApplicationPage : BaseSampleApplicationPage
