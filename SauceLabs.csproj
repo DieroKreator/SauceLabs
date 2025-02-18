@@ -13,6 +13,7 @@
     <PackageReference Include="NUnit.Analyzers" Version="3.9.0"/>
     <PackageReference Include="NUnit3TestAdapter" Version="3.16.1"/>
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0"/>
+    <PackageReference Include="WebDriverManager" Version="2.9.3"/>
   </ItemGroup>
   <ItemGroup>
     <Using Include="NUnit.Framework"/>
