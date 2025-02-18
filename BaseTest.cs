@@ -1,3 +1,4 @@
+using AutomationResources;
 using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 
