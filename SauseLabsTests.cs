@@ -1,3 +1,4 @@
+using AutomationResources;
 using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
@@ -64,7 +65,7 @@ public class SauseLabsTests
     [SetUp]
     public void SetupForEverySingleTestMethod()
     {
-        //Driver = new WebDriverFactory().CreateSauceDriver();
+        Driver = new WebDriverFactory().CreateSauceDriver();
         SampleAppPage = new SampleApplicationPage(Driver);
 
         TheTestUser = new TestUser();
