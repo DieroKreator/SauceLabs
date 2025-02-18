@@ -2,7 +2,6 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System.Reflection;
 using OpenQA.Selenium.Remote;
-using OpenQA.Selenium.Safari;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
 
