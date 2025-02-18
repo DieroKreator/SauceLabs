@@ -1,3 +1,6 @@
+using OpenQA.Selenium;
+using OpenQA.Selenium.Interactions;
+
 namespace SauceLabs;
 
 [Category("DataDrivenParallelTests")]
